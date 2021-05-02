@@ -1,1 +1,4 @@
 # Promises_Advanced_JavaScript
+
+
+Suppose that you are creating an app much similar to Amazon and you have to develop a functionality wherein when a user tries to fetch a certain item, the information about that item is rendered. When the user gives the command to fetch some information about a certain item, then the system tries to fetch the information from the server. If it successfully retrieves that information, it displays it, otherwise it throws an error. Can you declare a simple Promise object wherein you write code of what happens when this Promise is rejected or resolved? Note that whether or not a Promise is resolved depends on a variable called "success". If "success == true", the Promise is resolved and otehrwise it is rejected. You can display the retrieved object's name, brand, price, color etc.
